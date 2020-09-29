@@ -701,20 +701,3 @@
 .flex-no-chang-width{	flex-grow: 0;	flex-shrink: 0;}
 .align-items-center{	align-items: center;display: flex;}
 .align-items-normal{	align-items:normal ;}
-/**
- * 波浪线
- */
-.wave-line,.w-line {
-		color: #999999;
-		height: var(--size20);
-		background: radial-gradient(circle at var(--size10) - var(--size7)),
-			transparent var(--size8), currentColor var(--size8),
-			currentColor var(--size9), transparent var(--size9) repeat-x,
-			radial-gradient(circle at var(--size10) var(--size27),
-			transparent var(--size8), currentColor var(--size8), 
-			currentColor var(--size9), transparent var(--size9)) repeat-x;
-		background-size: var(--size20) var(--size20);
-		background-position: - var(--size10) calc(100% + var(--size31)), 0 calc(100% - var(--size4));
-	}
-
-
